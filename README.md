@@ -126,68 +126,11 @@ axis 2 → quantile
 
 ## Benchmark performance
 
-Evaluated on [GIFT-Eval](https://github.com/SalesforceAIResearch/gift-eval) — 23 datasets, 144,000 time series, 177M data points, 7 domains, 10 frequencies, and short- to long-term horizons across Econ/Fin, Energy, Healthcare, Nature, Sales, Transport, and Web/CloudOps.
+Evaluated on [GIFT-Eval](https://github.com/SalesforceAIResearch/gift-eval) 23 datasets, 144,000 time series, 177M data points, 7 domains, 10 frequencies, and short- to long-term horizons across Econ/Fin, Energy, Healthcare, Nature, Sales, Transport, and Web/CloudOps.
 
-<div align="center">
-
-<img src="assets/benchmark-crps.png" alt="GIFT-Eval — probabilistic forecasting (CRPS)" width="880">
-
-<img src="assets/benchmark-mase.png" alt="GIFT-Eval — point forecasting (MASE)" width="880">
-
-</div>
+![GIFT-Eval benchmark results for Tafsut](assets/tafsut-gift-eval-side-by-side-light.png)
 
 Among the twelve models compared here, Tafsut places **3rd on CRPS** (0.481) and **4th on MASE** (0.693) at 105M parameters — ahead of several entries one to two orders of magnitude larger. Lower is better on both metrics.
-
-<details>
-<summary><b>Probabilistic forecasting — CRPS</b></summary>
-
-<br>
-
-| # | Model | Organization | Params | CRPS |
-| ---: | --- | --- | ---: | ---: |
-| 1 | TiRex-2 | NXAI | 82.5M | 0.467 |
-| 2 | Toto-2.0 | Datadog | 2.5B | 0.476 |
-| **3** | **Tafsut** | **Huawei** | **105M** | **0.481** |
-| 4 | PatchTST-FM-r1 | IBM × RPI | 260M | 0.483 |
-| 5 | Timer-S1 | Tsinghua × ByteDance | 8.3B | 0.485 |
-| 6 | Chronos-2 | Amazon AWS | 120M | 0.485 |
-| 7 | Falcon-2.0 | ant-intl | 2B | 0.486 |
-| 8 | Falcon-X | ant-intl | 591M | 0.486 |
-| 9 | FlowState-r1.1 | IBM | 9.07M | 0.487 |
-| 10 | TimesFM-2.5 | Google Research | 200M | 0.490 |
-| 11 | t0-alpha | TFC | 102M | 0.494 |
-| 12 | Moirai2 | Salesforce | 11.4M | 0.516 |
-
-Ties broken on MASE.
-
-</details>
-
-<details>
-<summary><b>Point forecasting — MASE</b></summary>
-
-<br>
-
-| # | Model | Organization | Params | MASE |
-| ---: | --- | --- | ---: | ---: |
-| 1 | Falcon-2.0 | ant-intl | 2B | 0.666 |
-| 2 | TiRex-2 | NXAI | 82.5M | 0.678 |
-| 3 | Falcon-X | ant-intl | 591M | 0.687 |
-| **4** | **Tafsut** | **Huawei** | **105M** | **0.693** |
-| 5 | Timer-S1 | Tsinghua × ByteDance | 8.3B | 0.693 |
-| 6 | Toto-2.0 | Datadog | 2.5B | 0.696 |
-| 7 | Chronos-2 | Amazon AWS | 120M | 0.698 |
-| 8 | FlowState-r1.1 | IBM | 9.07M | 0.701 |
-| 9 | TimesFM-2.5 | Google Research | 200M | 0.705 |
-| 10 | PatchTST-FM-r1 | IBM × RPI | 260M | 0.707 |
-| 11 | t0-alpha | TFC | 102M | 0.724 |
-| 12 | Moirai2 | Salesforce | 11.4M | 0.728 |
-
-Ties broken on CRPS. A MASE of 1.0 corresponds to a naive forecast.
-
-</details>
-
-> [!IMPORTANT]
-> **PROJECT-OWNER INPUT REQUIRED.** The GIFT-Eval leaderboard is updated continuously, so add the date of this snapshot and a link to the evaluation code for reproducibility.
 
 ---
 
