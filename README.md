@@ -354,7 +354,6 @@ history → missing-value handling → instance normalization → temporal patch
 | Head dimension | 64 |
 | FFN size | 3,072 |
 | Activation | ReLU |
-| Dropout | 0.0 |
 | Output quantiles | 9 |
 | Framework | PyTorch |
 | Weight format | Safetensors |
