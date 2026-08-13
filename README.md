@@ -34,12 +34,17 @@ model = TafsutModel.from_pretrained(
     "Tafsut-FM/tafsut-univariate-base"
 )
 ```
-
-<!-- PROJECT-OWNER INPUT REQUIRED — drop a forecast visualization here:
 <div align="center">
-  <img src="docs/images/forecast.png" alt="Tafsut forecast" width="760">
+  <img
+    src="assets/showcase-grid.png"
+    alt="Tafsut zero-shot forecasts on real-world time series"
+    width="900"
+  >
 </div>
--->
+
+<p align="center">
+  <sub>Zero-shot probabilistic forecasts across real-world time series.</sub>
+</p>
 
 <div align="center">
 
