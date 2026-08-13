@@ -17,7 +17,14 @@ The license badge must wait until the project license is chosen.
 [![License](https://img.shields.io/badge/license-TBD-lightgrey)](LICENSE)
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-tafsut--univariate--base-ffcc4d)](https://huggingface.co/Tafsut-FM/tafsut-univariate-base)
 [![CI](https://github.com/Tafsut-FM/tafsut/actions/workflows/ci.yml/badge.svg)](https://github.com/Tafsut-FM/tafsut/actions)
+[![CI](https://github.com/Tafsut-FM/tafsut/actions/workflows/ci.yml/badge.svg)](https://github.com/Tafsut-FM/tafsut/actions)
 -->
+
+[![PyPI](https://img.shields.io/pypi/v/tafsut?color=1f6feb)](https://pypi.org/project/tafsut/)
+[![Python](https://img.shields.io/pypi/pyversions/tafsut)](https://pypi.org/project/tafsut/)
+[![License](https://img.shields.io/badge/license-TBD-lightgrey)](LICENSE)
+[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-tafsut--univariate--base-ffcc4d)](https://huggingface.co/Tafsut-FM/tafsut-univariate-base)
+
 
 [Quick start](#quick-start) · [Benchmarks](#benchmark-performance) · [API](#api) · [Architecture](#model-architecture) · [Model on 🤗](https://huggingface.co/Tafsut-FM/tafsut-univariate-base)
 
