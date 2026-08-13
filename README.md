@@ -54,7 +54,7 @@ model = TafsutModel.from_pretrained(
 
 ## What Tafsut is
 
-Give Tafsut a history of scalar observations and a horizon. It returns nine forecast quantiles — q0.1 through q0.9 — for every future time step.
+Give Tafsut a history of scalar observations and a horizon. It returns nine forecast quantiles (q0.1 through q0.9) for every future time step.
 
 The released model, **Tafsut Univariate Base**, is a 105,315,648-parameter patch-based transformer encoder built for zero-shot inference. Weights live on the Hugging Face Hub and are downloaded and cached for you.
 
