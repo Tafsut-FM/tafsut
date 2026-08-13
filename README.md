@@ -46,7 +46,7 @@ model = TafsutModel.from_pretrained(
 |  |  |  |
 | :-- | :-- | :-- |
 | **Zero-shot** | **Probabilistic** | **Long context** |
-| Forecast a new series with no retraining or per-series fine-tuning. | Nine quantiles per step: median forecast *and* its uncertainty. | Up to 32,768 historical observations, handled as temporal patches. |
+| Forecast a new series with no retraining or per-series fine-tuning. | Nine quantiles per step: median forecast and its uncertainty. | Up to 32,768 historical observations, handled as temporal patches. |
 
 </div>
 
