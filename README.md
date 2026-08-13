@@ -6,7 +6,7 @@
 
 # Tafsut
 
-**Probabilistic time-series forecasting with pretrained models.**
+**Probabilistic Timeseries Forecasting**
 
 <!--
 PROJECT-OWNER INPUT REQUIRED — uncomment once each destination exists.
